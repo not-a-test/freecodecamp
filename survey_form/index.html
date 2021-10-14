@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>       
+    <p id="description">for survey description</p>
+    <form id="survey-form" action="">
+        <h4>Information</h4>
+        <label for="name" id="name-label">Name</label>
+        <input class="form-select"type="text" id="name" name="name" required placeholder="name">
+        <label for="email" id="email-label">Email</label>
+        <input class="form-select" type="email" id="email" name="email" required placeholder="email">
+        <label for="number" id="number-label">Number</label>
+        <input class="form-select" type="number" id="number" name="number" min="1" max="1000" placeholder="number"></imput>
+        <label for="dropdown">Dropdown</label>
+        <select class="form-select" name="dropdown" id="dropdown">
+            <option>Test Option 1</option>
+            <option>Test Option 2</option>
+            <option>Test Option 3</option>
+        </select>
+        <h4>Radio Buttons</h4>
+        <input type="radio" id="radio_first" name="radio_group" value="radio_first">
+        <label for="radio_first">Radio First</label>
+        <br>
+        <input type="radio" id="radio_second" name="radio_group" value="radio_second">
+        <label for="radio_second">Radio Second</label>
+        <br>
+        <input type="radio" id="radio_third" name="radio_group" value="radio_third">
+        <label for="radio_third">Radio Third</label>
+        <br>
+        <h4>Check Boxes</h4>
+        <input type="checkbox" id="checkbox_first" name="checkbox_first" value="check_first">
+        <label for="checkbox_first">Checkbox First</label>
+        <br>
+        <input type="checkbox" id="checkbox_second" name="checkbox_second" value="check_second">
+        <label for="checkbox_second">Checkbox Second</label>
+        <br>
+        <input type="checkbox" id="checkbox_third" name="checkbox_third" value="check_third">
+        <label for="checkbox_third">Checkbox Third</label>
+        <br>
+        <label for="text_area">Text Area</label><br>
+        <textarea id="text_area" name="text_area" rows="5" cols="28"></textarea><br>
+        <input class="button" type="submit" value="Submit" id="submit">
+    </form>
+</body>
+</html>

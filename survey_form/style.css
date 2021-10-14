@@ -1,0 +1,48 @@
+    @import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200&display=swap');
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #1A1A1B;
+        font-family: 'Stick No Bills', sans-serif;;
+        line-height: 2;
+    }
+
+    h1 {
+        text-align: center;
+        color: #94F3E4;
+        margin-top: 20px;
+    }
+    p {
+        text-align: center;
+        color: #37AA9C;
+        padding: 10px 0px;
+    }
+
+    form {
+        margin: auto;   
+        padding: 2.2rem;
+        background-color: #37AA9C;
+        text-align: left;
+        color: #333F44;
+        border-radius: 1.5rem;
+    }
+    .form-select {
+        display: block;
+        width: 100%;
+        padding: 0.25rem;
+    }
+    .button {
+        padding: 10px 32px;
+        background-color: #37AA9C;
+        border-radius: 10px;
+        border-color: #333F44;
+        width: 100%;
+    }
